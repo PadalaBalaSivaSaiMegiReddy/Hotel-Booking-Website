@@ -44,11 +44,37 @@
         
       </ul>
       <form class="d-flex" role="search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+      <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-toggle="modal" data-target="#LoginModal">Login
+  </button>
       </form>
+      <!-- Button trigger modal -->
+  
+      </div>
+    </div>
+  </nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
   </div>
-</nav>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
