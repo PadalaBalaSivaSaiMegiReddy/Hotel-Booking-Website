@@ -43,10 +43,11 @@
         </li>
         
       </ul>
-      <form class="d-flex" role="search">
-      <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-toggle="modal" data-target="#LoginModal">Login
-  </button>
-      </form>
+      <div class="d-flex" >
+        <!-- Button trigger modal -->
+           <!-- Button HTML (to Trigger Modal) -->
+   <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3 " data-bs-target="#LoginModal" data-bs-toggle="modal">Login</button>
+</div>
       <!-- Button trigger modal -->
   
       </div>
@@ -54,29 +55,28 @@
   </nav>
 
 
-
-<!-- Modal -->
-<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<!-- Modal HTML -->
+<div id="LoginModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Do you want to save changes to this document before closing?</p>
+                <p class="text-secondary"><small>If you don't save, your changes will be lost.</small></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
-
-
+</div>
+</body>
+</html>                            
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
