@@ -7,6 +7,7 @@
     <title>MR Hotel</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <style>
 *
 {font-family: 'Poppins', sans-serif;
@@ -58,20 +59,34 @@
 <!-- Modal HTML -->
 <div id="LoginModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
     <div class="modal-dialog">
+      <form>
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Confirmation</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <h5 class="modal-title d-flex align-items-center">
+                <i class="bi bi-person-circle fs-3 me-3"></i>User Login</h5>
+                <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
-                <p>Do you want to save changes to this document before closing?</p>
-                <p class="text-secondary"><small>If you don't save, your changes will be lost.</small></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-body">
+                <div class="mb-3">
+    <label for="inputPassword" class="form-label shadow-none">Email Address</label>
+      <input type="email" class="form-control shadow-none">
+    </div>
+
+    <div class="mb-3 ">
+    <label for="inputPassword" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword">
+    </div>
+    <div class="d-flex justify-content-between mb-4">
+    <button class="btn btn-dark shadow-none">Login</button>
+    <a href="javascript:void(0)" class="text-secondary text-decoration-none">Forgot Password?</a>
+    </div>
+  </div>
+  
+  </div>
+      </div>
             </div>
         </div>
+      </form>
     </div>
 </div>
 </div>
