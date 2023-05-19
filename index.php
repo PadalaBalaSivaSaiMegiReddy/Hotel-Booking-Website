@@ -51,6 +51,7 @@
           <!-- Button trigger modal -->
           <!-- Button HTML (to Trigger Modal) -->
           <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3 " data-bs-target="#LoginModal" data-bs-toggle="modal">Login</button>
+          <button type="button" class="btn btn-outline-dark shadow-none" data-bs-target="#registerModal" data-bs-toggle="modal">Register</button>
         </div>
         <!-- Button trigger modal -->
 
@@ -89,6 +90,37 @@
         </div>
     </div>
   </div>
+
+  <div id="registerModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
+    <div class="modal-dialog">
+      <form>
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title d-flex align-items-center">
+              <i class="bi bi-person-circle fs-3 me-3"></i>User Login
+            </h5>
+            <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="inputPassword" class="form-label shadow-none">Email Address</label>
+              <input type="email" class="form-control shadow-none">
+            </div>
+
+            <div class="mb-3 ">
+              <label for="inputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+            <div class="d-flex justify-content-between mb-4">
+              <button class="btn btn-dark shadow-none">Login</button>
+              <a href="javascript:void(0)" class="text-secondary text-decoration-none">Forgot Password?</a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+
   </div>
   </form>
   </div>
