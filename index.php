@@ -65,7 +65,7 @@
                 <h5 class="modal-title d-flex align-items-center">
                 <i class="bi bi-person-circle fs-3 me-3"></i>User Login</h5>
                 <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal"></button>
-</div>
+            </div>
                 <div class="modal-body">
                 <div class="mb-3">
     <label for="inputPassword" class="form-label shadow-none">Email Address</label>
