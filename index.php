@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&family=Varela&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <style>
     * {
       font-family: 'Poppins', sans-serif;
@@ -20,7 +21,7 @@
   </style>
 </head>
 
-<body>
+<body class="bg-light">
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
@@ -86,23 +87,70 @@
               <a href="javascript:void(0)" class="text-secondary text-decoration-none">Forgot Password?</a>
             </div>
           </div>
-
-        </div>
+      </form>
     </div>
   </div>
-
+  </div>
+  <!-- register modal HTML -->
   <div id="registerModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <form>
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title d-flex align-items-center">
-              <i class="bi bi-person-circle fs-3 me-3"></i>User Login
+              <i class="bi bi-person-lines-fill fs-3 me-3"></i>User Registeration
             </h5>
             <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <div class="mb-3">
+            <span class="badge badge-pill badge-light text-dark mb-3 text wrap lh-base ">Note: Your details must match with your ID (Aadhaar card,driving license, passport,etc)
+              that be required during<br> check—in.
+            </span>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 ps-0 mb-3">
+                  <label for="naming" class="form-label shadow-none">Name</label>
+                  <input type="text" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 p-0">
+                  <label for="emailaddress" class="form-label shadow-none">Email Address</label>
+                  <input type="email" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 ps-0 mb-3">
+                  <label for="naming" class="form-label shadow-none">Phone Number</label>
+                  <input type="number" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 p-0 mb-3">
+                  <label for="emailaddress" class="form-label shadow-none">Picture</label>
+                  <input type="file" class="form-control shadow-none">
+                </div>
+                <div class="col-md-12 mb-3">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="shadow-none form-control" rows="1"></textarea>
+                </div>
+                <div class="col-md-6 ps-0 mb-3">
+                  <label for="naming" class="form-label shadow-none">pincode</label>
+                  <input type="number" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 p-0 mb-3">
+                  <label for="emailaddress" class="form-label shadow-none">Date of birth</label>
+                  <input type="date" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 ps-0 mb-3">
+                  <label for="naming" class="form-label shadow-none">Password</label>
+                  <input type="password" class="form-control shadow-none">
+                </div>
+                <div class="col-md-6 p-0 mb-3">
+                  <label for="emailaddress" class="form-label shadow-none">Confirm Password</label>
+                  <input type="password" class="form-control shadow-none">
+                </div>
+              </div>
+
+            </div>
+            <div class="text-center my-1">
+
+            </div>
+            <!-- <div class="mb-3">
               <label for="inputPassword" class="form-label shadow-none">Email Address</label>
               <input type="email" class="form-control shadow-none">
             </div>
@@ -114,22 +162,66 @@
             <div class="d-flex justify-content-between mb-4">
               <button class="btn btn-dark shadow-none">Login</button>
               <a href="javascript:void(0)" class="text-secondary text-decoration-none">Forgot Password?</a>
-            </div>
+            </div> -->
           </div>
 
-        </div>
+      </form>
     </div>
   </div>
+  </div>
+  <div class="containerfluidimg px-lg-4 mt-4">
+    <div class="swiper mySwiper swiper-container ">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ">
+          <img src="images/carousel/img1.png" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/img2.png" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/img3.png" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/img4.png" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/carousel/img5.png" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="himages/carousel/img6.png" class="w-100 d-block" />
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
 
   </div>
-  </form>
   </div>
   </div>
-  </div>
-</body>
 
-</html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      effect: "fade",
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
