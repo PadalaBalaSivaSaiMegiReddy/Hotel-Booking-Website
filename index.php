@@ -258,8 +258,21 @@
       </div>
     </div>
   </div>
-  <br><br><br><br>
-  <br><br><br><br>
+
+  <!-- our rooms -->
+  <h2 class="mt-5 pt-4 mb-5 text-center fw-bold h-font">OUR ROOMS</h2>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-4 md-6 my-3">
+        cards
+      </div>
+      <div class="col-lg-12 text-center mt-5">
+        <a href="javascript:void(0)" class="btn text-white shadow-none custom-bg ">View More >>></a>
+
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script>
