@@ -18,11 +18,25 @@
     .h-font {
       font-family: 'Merienda', cursive;
     }
+
+    .custom-bg{
+      background-color: #094a1b!important;
+    }
+    .custom-bg:hover{
+      background-color: #2e6617!important;
+    }
+    .avalibility-form{
+      margin-top: -50px;
+      z-index: 2;
+      position: relative;
+
+    }
   </style>
 </head>
 
 <body class="bg-light">
 
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">MR Hotel</a>
@@ -60,7 +74,6 @@
     </div>
   </nav>
 
-
   <!-- Modal HTML -->
   <div id="LoginModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
     <div class="modal-dialog">
@@ -91,6 +104,7 @@
     </div>
   </div>
   </div>
+
   <!-- register modal HTML -->
   <div id="registerModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
     <div class="modal-dialog modal-lg">
@@ -169,6 +183,8 @@
     </div>
   </div>
   </div>
+
+  <!-- carasoul HTML -->
   <div class="containerfluidimg px-lg-4 mt-4">
     <div class="swiper mySwiper swiper-container ">
       <div class="swiper-wrapper">
@@ -201,6 +217,50 @@
   </div>
   </div>
 
+  <!-- check avalibility form -->
+  <div class="container avalibility-form">
+    <div class="row">
+      <div class="col-lg-12 bg-white shadow p-4 rounded ">
+        <h5 class="mb-4">Check Avalibility</h5>
+        <form>
+          <div class="row align-items-end">
+            <div class="col-lg-3 ">
+              <label class="form-label shadow-none" style="font-weight:500">Check-in</label>
+              <input type="date" class="form-control shadow-none">
+            </div>
+            <div class="col-lg-3">
+              <label class="form-label shadow-none" style="font-weight:500">Check-out</label>
+              <input type="date" class="form-control shadow-none">
+            </div>
+            <div class="col-lg-3">
+              <label class="form-label shadow-none" style="font-weight:500">Adult</label>
+              <select class="form-select">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-lg-2 ">
+              <label class="form-label shadow-none" style="font-weight:500">Children</label>
+              <select class="form-select">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-lg-1">
+              <button type="submit" class="btn text-white shadow-none custom-bg ">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <br><br><br><br>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".swiper-container", {
@@ -208,7 +268,7 @@
       effect: "fade",
       loop: true,
       autoplay: {
-        delay: 2500,
+        delay: 1000,
         disableOnInteraction: false,
       },
       navigation: {
