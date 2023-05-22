@@ -419,11 +419,140 @@
       </div>
 
       <div class="col-lg-12 text-center mt-5">
-        <a href="javascript:void(0)" class="btn text-white shadow-none custom-bg ">View More >>></a>
+        <a href="javascript:void(0)" class="btn text-white shadow-none custom-bg ">View More Rooms >>></a>
 
       </div>
     </div>
   </div>
+
+  <!-- our facilities -->
+  <h2 class="mt-5 pt-4 mb-5 text-center fw-bold h-font">OUR FACILITIES</h2>
+  <div class="container">
+    <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div>
+      <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div>
+      <!-- <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+        <img src="images/facilities/IMG_43553.svg" width="80px" class="card-img-top" alt="...">
+        <h5 class="mt-3">WIFI</h5>
+      </div> -->
+
+    </div>
+    <div class="col-lg-12 text-center mt-5">
+
+      <a href="javascript:void(0)" class="btn text-white shadow-none custom-bg ">More facilities >>></a>
+
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+
+
+  <h2 class="mt-5 pt-4 mb-10 text-center fw-bold h-font">TESTIMONIALS</h2>
+  <div class="container  mt-5">
+    <!-- Swiper -->
+    <div class="swiper swipertestimonial">
+      <div class="swiper-wrapper mb-5">
+        <div class="swiper-slide">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/rooms/1.jpg" width="30px">
+            <h6 class="m-0 ms-2">John Doe</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi nam, rem perferendis soluta voluptatibus quibusdam repellendus ea odit eius voluptas. Rerum temporibus pariatur magnam! Ad iste impedit necessitatibus doloribus.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+
+
+        </div>
+        <div class="swiper-slide">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/rooms/1.jpg" width="30px">
+            <h6 class="m-0 ms-2">John Doe</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi nam, rem perferendis soluta voluptatibus quibusdam repellendus ea odit eius voluptas. Rerum temporibus pariatur magnam! Ad iste impedit necessitatibus doloribus.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+
+
+        </div>
+        <div class="swiper-slide">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/rooms/1.jpg" width="30px">
+            <h6 class="m-0 ms-2">John Doe</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi nam, rem perferendis soluta voluptatibus quibusdam repellendus ea odit eius voluptas. Rerum temporibus pariatur magnam! Ad iste impedit necessitatibus doloribus.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+
+
+        </div>
+        <div class="swiper-slide">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/rooms/1.jpg" width="30px">
+            <h6 class="m-0 ms-2">John Doe</h5>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi nam, rem perferendis soluta voluptatibus quibusdam repellendus ea odit eius voluptas. Rerum temporibus pariatur magnam! Ad iste impedit necessitatibus doloribus.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+
+
+  <br><br><br>
+  <br><br><br>
+
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script>
@@ -445,6 +574,27 @@
       },
     });
   </script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swipertestimonial", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      slidesPerView: "3",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
