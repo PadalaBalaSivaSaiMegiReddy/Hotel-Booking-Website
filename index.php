@@ -548,6 +548,21 @@
 
   </div>
 
+  <!-- Reach us -->
+
+  <h2 class="mt-5 pt-4 mb-10 text-center fw-bold h-font">REACH US</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8">
+        <iframe height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112254.68326305313!2d77.46476516112054!3d28.45065676758317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cbf94deb6bc39%3A0x7ba6bedc9a2b537f!2sBennett%20University%20(Times%20of%20India%20Group)!5e0!3m2!1sen!2sin!4v1684753263955!5m2!1sen!2sin"   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-4 col-md-4">
+
+      </div>
+    </div>
+  </div>
+
 
 
   <br><br><br>
