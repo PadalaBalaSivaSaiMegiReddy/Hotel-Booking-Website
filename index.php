@@ -548,16 +548,50 @@
 
   </div>
 
+  <div class="col-lg-12 text-center mt-5">
+
+    <a href="javascript:void(0)" class="btn text-white shadow-none custom-bg ">Know More >>></a>
+
+  </div>
+
   <!-- Reach us -->
 
   <h2 class="mt-5 pt-4 mb-10 text-center fw-bold h-font">REACH US</h2>
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-8">
-        <iframe height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112254.68326305313!2d77.46476516112054!3d28.45065676758317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cbf94deb6bc39%3A0x7ba6bedc9a2b537f!2sBennett%20University%20(Times%20of%20India%20Group)!5e0!3m2!1sen!2sin!4v1684753263955!5m2!1sen!2sin"   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+        <iframe height="320px" class="w-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112254.68326305313!2d77.46476516112054!3d28.45065676758317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cbf94deb6bc39%3A0x7ba6bedc9a2b537f!2sBennett%20University%20(Times%20of%20India%20Group)!5e0!3m2!1sen!2sin!4v1684753263955!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col-lg-4 col-md-4">
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Call Us</h5>
+          <a href="tel:+919959722693" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill"></i>+919959722693
+          </a>
+          <br>
+          <a href="tel:+919959722693" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill"></i>+919959722693
+          </a>
+        </div>
+
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Follow Us</h5>
+          <a hre="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-twitter me-1"></i>Twitter
+            </span> </a>
+          <br>
+          <a hre="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-facebook me-1"></i>Facebook
+            </span> </a>
+          <br>
+          <a hre="#" class="d-inline-block">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-instagram me-1"></i>Instagram
+            </span> </a>
+        </div>
 
       </div>
     </div>
@@ -565,8 +599,59 @@
 
 
 
-  <br><br><br>
-  <br><br><br>
+  <!-- Footer -->
+  <div class="container bg-white mt-5">
+    <div class="row">
+      <div class="col-lg-4 p-4">
+        <h3 class="h-font fw-bold fs-3 mb-2">MR HOTEL</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Corporis, illum
+          dolorem? Nostrum amet reiciendis
+          libero ea. Mollitia maxime quisquam molestias,
+          ullam veritatis, delectus et saepe fuga animi,
+          voluptatum enim recusandae.
+        </p>
+
+      </div>
+      <div class="col-lg-4 p-4">
+        <h5 class="mb-3">
+          Links
+        </h5>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">Home</a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">Facilities</a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">Rooms</a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">Contact Us</a><br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">About</a>
+
+      </div>
+      <div class="col-lg-4 p-4">
+        <h5 class="mb-3">
+          Follow Us
+        </h5>
+        <a hre="#" class="d-inline-block text-dark text-decoration-none mb-2">
+          <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-twitter me-1"></i>Twitter
+          </span> </a><br>
+        <a hre="#" class="d-inline-block text-dark text-decoration-none mb-2">
+          <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-facebook me-1"></i>Facebook
+          </span> </a><br>
+        <a hre="#" class="d-inline-block text-dark text-decoration-none ">
+          <span class="badge bg-light text-dark fs-6 p-2">
+            <i class="bi bi-instagram me-1"></i>Instagram
+          </span> </a><br>
+      </div>
+
+    </div>
+  </div>
+
+  <h6 class="text-center bg-dark text-white p-3 m-0">Designed and developed my Bala Siva Sai Megi Reddy Padala</h6>
+
+
+
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
